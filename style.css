@@ -1,4 +1,4 @@
-/* .container {
+/*.container {
     display: flex;
     flex-wrap: wrap;
     width: 940px;
@@ -57,7 +57,7 @@
     ),
     url(icons/fish.jpg);
     background-position: center; 
-} */
+} 
 
 *{list-style: none;}
 
@@ -130,4 +130,119 @@
 
 .list-item.icon-mobile::before{
     background-image: url(/icons/mobile-icon.svg);
+} */
+
+/* .text{
+    width: 300px;
+}
+
+.text::selection{
+    background-color: teal;
+    color: brown;
+}
+
+.text::first-letter{
+    font-size: 48px;
+    color: yellowgreen;
+} */
+
+/* .text::first-line{
+    background-color: aquamarine;
+} */
+
+/* body{
+    font-size: 36px;
+}
+
+h1{
+    font-size: 2em;
+} */
+
+
+.section{
+    padding-bottom: 162px;
+    padding-top: 80px;
+    background-color: black;
+    background: linear-gradient(0deg, rgba(23, 16, 16, 0.6), rgba(23, 16, 16, 0.6)), url(./icons/text/Rectangle\ 48.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container{
+    width: 1100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero{
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    border: none;
+}
+
+li{
+    margin-right: 67px;
+}
+
+.title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F7F7F7;
+    letter-spacing: 0.1px;
+}
+
+.text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    color: #FFFFFF;
+    letter-spacing: 0.2px;
+}
+
+.bold-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #F7F7F7;
+}
+
+button{
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+    
+        color: #FFFFFF;
+        padding: 16px 58.5px;
+        width: 236px;
+        height: 68px;
+}
+
+.left{
+    background: #FA4A0C;
+        box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+        border-radius: 30px;
+}
+
+.right{
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;    
 }
